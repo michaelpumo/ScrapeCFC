@@ -7,7 +7,7 @@ The use of ScrapeCFC requires Adobe ColdFusion 9+ or Railo 4. I have only test t
 
 This script makes use of a Java class loader and a Java library known as jSoup. Combining these tools, we are able to extract information from a URL relatively easily.
 
-There is only one public function getData() which can return either a ColdFusion structure, or JSON, when providing a URL and the output argument.
+There is only one public function <code>getData()</code> which can return either a ColdFusion structure, or JSON, when providing a URL and the output argument.
 
 The following code assumes that your files are placed in a folder called lib, in your web root.
 
