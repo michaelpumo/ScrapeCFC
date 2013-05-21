@@ -11,10 +11,10 @@ There is only one public function getInfo() which can return either a ColdFusion
 
 The following code assumes that your files are placed in a folder called lib, in your web root.
 
-<pre>
-<cfparam name="url.url" type="string" default="" />
-<cfset scrape = new lib.scrape() />
-<cfdump var="#scrape.getData(url.url, "json")#" />
-</pre>
+<code>
+&lt;cfparam name="url.url" type="string" default="" /&gt;
+&lt;cfset scrape = new lib.scrape() /&gt;
+&lt;cfdump var="#scrape.getData(url.url, "json")#" /&gt;
+</code>
 
 This is my first ever open source project, so I welcome feedback.
