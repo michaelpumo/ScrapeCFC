@@ -17,4 +17,6 @@ The following code assumes that your files are placed in a folder called lib, in
 &lt;cfdump var="#scrape.getData(url.url, "json")#" /&gt;
 </pre>
 
-This is my first ever open source project, so I welcome feedback.
+This CFC returns Meta, Open Graph and Image information. Think of it more as a tool to scrape a summary of a web page, rather than the entire web page itself. 
+
+The aim of this project was to acheive a similar scraping tool to that of Facebook; users sharing links on their timeline.
